@@ -1,4 +1,3 @@
-
 {
 "bot-name": "MALVIN-XD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
@@ -6,25 +5,25 @@
   "keywords": ["bot"],
   "documentation-link": "https://new-session-x1e9.onrender.com/pair",
     "owner-verification":"malvink003@gmail.com",
-  
+
     "env": {
       "SESSION_ID": {
         "description": "Put your SESSION_ID here. It starts with malvin~",
-        "value":"",
+        "value":"malvin~Q2UR0KoY#Bkk4mAcqvF88YoDiJtQ20eu6u_qX7PqOFluqOdGtw2E",
         "required": true
-        
+
       },
-      
+
     "OWNER_NUMBER": {
       "description": "Enter owner number",
       "required": false,
-      "value": "263714757857"
+      "value": "+923331529200"
       },
-      
+
     "OWNER_NAME": {
       "description": "Enter owner name",
       "required": false,
-      "value": "Malvin King"
+      "value": "Saif"
 
     }  
   }
