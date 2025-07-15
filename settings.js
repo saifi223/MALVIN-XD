@@ -13,19 +13,19 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "", // Your bot's session ID (keep secure)
+  SESSION_ID: process.env.SESSION_ID || "malvin~Q2UR0KoY#Bkk4mAcqvF88YoDiJtQ20eu6u_qX7PqOFluqOdGtw2E", // Your bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || ".", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
-  MODE: getConfig("MODE") || process.env.MODE || "private", // Bot mode: public/private/group/inbox
+  MODE: getConfig("MODE") || process.env.MODE || "public", // Bot mode: public/private/group/inbox
   REPO: process.env.REPO || "https://github.com/XdKing2/MALVIN-XD", // Bot GitHub repo dont change this❗️
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857", // Owner WhatsApp number
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ", // Owner name
-  DEV: process.env.DEV || "263714757857", // Developer contact number
-  DEVELOPER_NUMBER: '263714757857@s.whatsapp.net', // Developer WhatsApp ID
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "0347703431/", // Owner WhatsApp number
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "SAIFxAMIR", // Owner name
+  DEV: process.env.DEV || "03477034310", // Developer contact number
+  DEVELOPER_NUMBER: '03477034310@s.whatsapp.net', // Developer WhatsApp ID
 
   // ===== AUTO-RESPONSE SETTINGS =====
   AUTO_REPLY: process.env.AUTO_REPLY || "false", // Enable auto-reply
@@ -36,7 +36,7 @@ module.exports = {
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/xshsmk",
 // add img for alive msg
 
-  LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ✦ ғʀᴏᴍ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/XdKing2/MALVIN-XD",
+  LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦Saif xᴅ✦ ғʀᴏᴍ Amir ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com",
 // add alive msg here 
 
   // ===== REACTION & STICKER SETTINGS =====
@@ -74,6 +74,6 @@ module.exports = {
   WELCOME: process.env.WELCOME || "false", // Enable welcome messages
   GOODBYE: process.env.GOODBYE || "false", // Enable goodbye messages
   ADMIN_ACTION: process.env.ADMIN_ACTION || "false", // Show admin activity notifications
-  
+
 version: process.env.version || "1.0.0",
 };
