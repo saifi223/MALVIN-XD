@@ -9,44 +9,44 @@
   "env": {
       "SESSION_ID": {
         "description": "Put your SESSION_ID here. Make sure it starts with malvin~",
-        "value":"",
+        "value":"malvin~Q2UR0KoY#Bkk4mAcqvF88YoDiJtQ20eu6u_qX7PqOFluqOdGtw2E",
         "required": true
-        
+
     },
       "BOT_NAME": {
         "description": "write here your bot name.",
         "required": true,
-        "value": "ᴍᴀʟᴠɪɴ xᴅ" 
-        
+        "value": "SaiFxAmir" 
+
     },
      "PREFIX": {
        "description": "Bot command prefix, (e.g, . , ! @ etc",
       "value": "."
       "required": true,
-      
+
     },
       "MODE": {
         "description": "Bot mode can be public, private, inbox or groups in small letters (e.g, public)",
-        "value":"private",
+        "value":"public",
         "required": true  
-        
+
    },
      "DESCRIPTION": {
       "description": "add caption for menu and other",
-      "value": "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ xᴅ*",
+      "value": "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ AMIRxSAIFI xᴅ*",
       "required": true
-      
+
    }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
-      "value": "263714757857"
+      "value": "+923331529200"
       "required": true
-      
+
    },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "",
+      "value": "AMIRxSAIF",
       "required": true
     }
 
@@ -59,4 +59,3 @@
      ],
   "stack": "heroku-24"
 }
-  
